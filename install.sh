@@ -1,5 +1,4 @@
-packages_list=(aircrack-ng aireplay-ng airmon-ng airodump-ng awk curl hostapd iwconfig lighttpd
-macchanger mdk3 unzip xterm openssl rfkill strings fuser)
+packages_list=(aircrack-ng aireplay-ng airmon-ng airodump-ng awk curl hostapd iwconfig lighttpd mdk3 unzip xterm openssl rfkill strings fuser)
 function pkgscheck_flux() {
 	for pkg in "${packages_list[@]}"
 	do
